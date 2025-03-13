@@ -1,0 +1,82 @@
+/* General Page Styling */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    color: #1a1a1a;
+    background-color: #ffffff;
+}
+
+/* Sections: Full-width, taking 70% of the screen height */
+section {
+    height: 85vh; /* Each section takes 70% of the viewport height */
+    display: flex;
+    flex-direction: column; /* Stack title and text vertically */
+    justify-content: center;
+    align-items: flex-start; /* Align content to the left */
+    padding-left: 10%; /* Push content slightly inward */
+}
+
+/* First section: Right-aligned text */
+#about {
+    height: 100vh;
+    text-align: left;
+    padding-right: 10%;
+}
+#education {
+    text-align: left;
+    padding-right: 10%;
+}
+#interests {
+    text-align: left;
+    padding-right: 10%;
+}
+
+#experience {
+    text-align: left;
+    padding-right: 10%;
+}
+/* Flex container for #about to place text and image side by side */
+.container {
+    display: flex; /* Enables a flexbox layout */
+    justify-content: space-between; /* Pushes text and image to opposite sides */
+    align-items: center; /* Vertically aligns the items in the middle */
+    gap: 15vw;
+}
+
+/* Styling for info-list */
+.info-list {
+    border-left: 4px solid black; /* Adds a black left border */
+    padding-left: 15px; /* Adds padding to the left to create space between the border and text */
+}
+.exp-list{
+    /*border-left: 2px ridge   black; /* Adds a black left border */
+    /*padding-left: 15px; /* Adds padding to the left to create space between the border and text */
+}
+
+/* For the CSV image */
+.image {
+    width: 20vw; /* You can adjust the size of the image */
+    height: auto;
+}
+
+/* General Text Styling */
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1rem;
+    max-width: 600px;
+    text-align: justify; /* Justify text */
+}
+
+/* Styling for info-list */
+.info-list {
+    font-size: 0.9rem;
+    border-left: 2px solid #1a1a1a; /* Adds a black left border */
+    color: #313131;
+
+    padding-left: 20px; /* Adds padding to the left to create space between the border and text */
+}
